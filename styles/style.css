@@ -1,0 +1,29 @@
+@import url('nav__bar.css');
+@import url('container__01.css');
+@import url('container__02.css');
+@import url('container__03.css');
+
+:root{
+    --font-principal: 'Barlow', sans-serif;
+    --font-secundaria: 'Barlow Condensed', sans-serif;
+    --vermelho: hsl(0, 100%, 68%);
+    --azul-escuro:hsl(230, 29%, 20%);
+    --cinza: hsl(230, 11%, 40%);
+    --cinza-claro:hsl(231, 7%, 65%);
+    --azul-claro:hsl(207, 33%, 95%);
+    --branco:#fff;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-principal);
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+    
+    
+    
+}
